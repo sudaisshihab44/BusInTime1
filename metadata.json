@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Bus In Time",
+  "description": "Real-time school bus tracking application for parents and schools with live GPS updates, attendance logs, and instant notifications.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
