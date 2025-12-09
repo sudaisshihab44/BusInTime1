@@ -1,3 +1,4 @@
+
 import { Child, NotificationItem, Stop, Driver, Parent, Bus, Route, TripStudent } from './types';
 
 export const MOCK_CHILDREN: Child[] = [
@@ -126,6 +127,7 @@ export const MOCK_PARENTS: Parent[] = [
     phone: '+91 98455 99887',
     childrenIds: ['1', '2'],
     status: 'approved',
+    photoUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Ravi',
   },
   {
     id: 'p2',
@@ -134,6 +136,7 @@ export const MOCK_PARENTS: Parent[] = [
     phone: '+91 98440 22334',
     childrenIds: [],
     status: 'pending',
+    photoUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Priya',
   },
   {
     id: 'p3',
@@ -142,6 +145,7 @@ export const MOCK_PARENTS: Parent[] = [
     phone: '+91 99887 77665',
     childrenIds: [],
     status: 'approved',
+    photoUrl: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Anil',
   }
 ];
 

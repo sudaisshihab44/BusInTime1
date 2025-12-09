@@ -9,6 +9,7 @@ import DriversManagement from './screens/admin/DriversManagement';
 import ParentsManagement from './screens/admin/ParentsManagement';
 import FleetManagement from './screens/admin/FleetManagement';
 import SchoolDashboard from './screens/SchoolDashboard';
+import StudentsManagement from './screens/admin/StudentsManagement';
 import DriverDashboard from './screens/DriverDashboard';
 import Layout from './components/Layout';
 
@@ -37,6 +38,7 @@ const AppContent: React.FC = () => {
             
             {/* School Admin Routes */}
             <Route path="/admin/dashboard" element={<SchoolDashboard />} />
+            <Route path="/admin/students" element={<StudentsManagement />} />
             <Route path="/admin/drivers" element={<DriversManagement />} />
             <Route path="/admin/parents" element={<ParentsManagement />} />
             <Route path="/admin/fleet" element={<FleetManagement />} />

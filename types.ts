@@ -1,3 +1,4 @@
+
 export type Role = 'parent' | 'admin' | 'driver';
 
 export interface Child {
@@ -62,6 +63,7 @@ export interface Parent {
   phone: string;
   childrenIds: string[];
   status: 'approved' | 'pending' | 'rejected';
+  photoUrl?: string;
 }
 
 export interface Bus {
